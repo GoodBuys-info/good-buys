@@ -137,5 +137,10 @@
     max-height: 100%;
   }
 
+.modal-backdrop {
+    display: none; 
+}
 
-  
+.modal-background{
+    background-color: #786464a1 !important;
+}
