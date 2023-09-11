@@ -123,7 +123,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 90%;
     height: 70vh; /* 70% of the viewport height */
     background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
     color: white; /* Text color */
@@ -141,6 +141,22 @@
     display: none; 
 }
 
+.modal-dialog{
+  margin-left:850px !important;
+  width:450px !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 .modal-background{
     background-color: #786464a1 !important;
 }
+
+/* flexbox */
+.flex-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+}
+
+
