@@ -5,10 +5,13 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Header Navigation Bar */
+/* Header Navigation Bar background-color: darkred; */
 header {
-    background-color: darkred;
+    
 flex: 0 0 auto !important;
+background-color: rgba(190, 11, 11, 0.261);
+    border: none;
+    color: #ffffff;
     /* To Prevent header from growing */
 }
 .container {
