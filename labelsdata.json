@@ -225,6 +225,40 @@
     "description":"The Climate Registry (TCR) is a non-profit organization that empowers North American organizations to do more in the fight against climate change by providing services and tools that help them reduce their emissions. TCR also drives climate action and ambition on the road to net zero by recognizing and showcasing sub-national leadership, and by building strategic partnerships with and between national and international entities. TCR is advised by a Council of Jurisdictions that includes representatives from diverse U.S. states and Canadian provinces and territories.",
     "link":"https://theclimateregistry.org/" 
 
+  },
+  {
+    "image":"img/leed_ap.png",
+    "title":"Leed",
+    "description": "LEED Professional Credentials distinguish building professionals with a thorough understanding of green building practices and principles and the LEED Green Building Rating System. There are now two categories of LEED Professional Credentials: LEED Green Associates; and LEED Accredited Professionals. The LEED Green Associate credential is intended for professionals who want to demonstrate green building expertise in non-technical fields of practice.LEED Accredited Professionals (LEED APs) have demonstrated the knowledge and skills to successfully steward the LEED certification process. LEED APs can specialize in several areas, corresponding to the LEED rating systems for Building Design and Construction, Interior Design and Construction, Homes, Operations and Maintenance, and Neighborhood Design.",
+    "link":"https://www.usgbc.org/leed"
+
+  },{
+    "image":"img/Energy_star_logo.png",
+    "title":"Energy star",
+    "description":"ENERGY STAR is a voluntary government-backed program dedicated to helping individuals protect the environment through energy efficiency. The ENERGY STAR mark is the national symbol for energy efficiency, making it easy for consumers and businesses to identify high-quality, energy-efficient products, homes, and commercial and industrial buildings. ENERGY STAR distinguishes what is efficient/better for the environment without sacrificing features or performance. Products that earn the ENERGY STAR mark prevent greenhouse gas emissions by meeting strict energy-efficiency guidelines set by the U.S. Environmental Protection Agency. For purposes of this survey, the questions answered will be limited to ENERGY STAR products.",
+    "link": "https://www.energystar.gov/" 
+  },
+  {
+    "image":"img/fsc.jpg",
+    "title":"Forest Stewardship Council",
+    "description":"Forest Stewardship Council (FSC) is governed by a global network of over 1,000 individuals and member organizations representing environmental, social, and economic perspectives.Our democratic and participative system brings these diverse perspectives together to find solutions that safeguard healthy, resilient forests worldwide.Our purpose: nurturing responsible forestry so forests and people can thrive. Our “check tree” label is found on millions of products worldwide, verifying sustainable sourcing from the forest to store shelves. Forty-six per cent of consumers around the globe recognize our label*.",
+    "link": "https://fsc.org/en" 
+
+  },
+  {
+    "image":"img/green_seal.png",
+    "title":"Green seal",
+    "description":"Green Seal® is a global nonprofit organization that pioneered the ecolabeling movement with a mission to protect human health and the environment by accelerating the adoption of products that are safer and more sustainable. For decades, Green Seal’s rigorous standards for health, sustainability, and product performance have driven permanent shifts in the marketplace, empowering better purchasing decisions and rewarding industry innovators. With thousands of certified products, services, and spaces from the world’s leading companies, the Green Seal certification mark is a universal symbol that a product or service meets the highest benchmark of health and environmental leadership.",
+    "link": "https://www.greenseal.org/" 
+
+  },
+
+  {
+    "image":"img/cradletocradle.png",
+    "title":"Cradle to Cradle",
+    "description":"The Cradle to Cradle Certified(CM) Products Program provides a company with a means to demonstrate efforts in eco-intelligent design.Cradle to Cradle Certification is a third-party sustainability label that requires achievement across multiple attributes:use materials that are safe for human health and the environment through all use phases product and system design for material reutilization, such as recycling or composting use of renewable energy efficient use of water, and maximum water quality associated with production company strategies for social responsibility.Cradle to Cradle certification is a four-tiered approach consisting of Basic, Silver, Gold, and Platinum levels.This certification program applies to materials, sub-assemblies and finished products.Cradle to Cradle CertifiedCM is a certification mark sublicensed by the Cradle to Cradle Products Innovation Institute.",
+    "link": "https://c2ccertified.org/" 
+
   }
 
 ]

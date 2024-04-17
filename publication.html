@@ -39,6 +39,17 @@
       body {
         background-image: url("./img/1.jpeg");
       }
+      /* Wrapper */
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      /* Content */
+      .content {
+        flex-grow: 1;
+      }
     </style>
     <script src="../jquery/jquery.js" type="text/javascript"></script>
     <script src="../jquery-ui/jquery-ui.js" type="text/javascript"></script>
@@ -52,6 +63,7 @@
 
   <body>
     <!-- Header Navigation Bar -->
+
     <header>
       <!-- Navigation code here -->
       <nav class="navbar navbar-default">
@@ -86,85 +98,89 @@
         </div>
       </nav>
     </header>
+    <div class="wrapper">
+      <div class="content">
+        <div class="container pb-2">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title">
+                <h1>Publication</h1>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <div class="container pb-2">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title">
-            <h1>Publication</h1>
+        <div class="container flexbox-container ml-md-2">
+          <!-- Left part with an image (30% size) -->
+          <div class="flexbox-left">
+            <img src="img/ghtc_logo.jpg" alt="Thumbnail Image" />
+          </div>
+
+          <!-- Right part with heading, description, and link (70% size) -->
+          <div class="flexbox-right">
+            <div class="link">
+              <a
+                href="https://ieeexplore.ieee.org/document/9342917"
+                target="_blank"
+                class="content-title"
+                >Goodbuys</a
+              >
+            </div>
+            <p>
+              In an economic system that prioritizes profit, humanitarian and
+              ecological ethics often get disregarded, because to many giant
+              corporations the mere consideration of them is a detriment to
+              manufacturing productivity. Thus, making conscientious consumerism
+              the norm is imperative to holding companies accountable, and
+              making the world a more equitable place. While in general,
+              consumers are willing to spend more money on ethically produced
+              goods, they are often unaware of the ethical scoring of the
+              products they purchase. GoodBuys is a social justice mobile
+              application that allows users to scan consumer goods’ barcodes
+              using their mobile phones or tablets in order to view information
+              about how ethically the products were produced by displaying which
+              Ecolables the products or the products’ producers have obtained as
+              well as what obtaining or lacking each of those labels entails. As
+              this information can drive consumers towards or away from specific
+              products, producers, and distributors, the large scale adaption of
+              Good-Buys and similar technologies will encourage the adaption of
+              United Nations (UN) Sustainable Development Goal (SDG) 12:
+              "Ensure[ing] sustainable consumption and production patterns"
+              through target 12.6: "encourage[ing] companies, especially large
+              and transnational companies, to adopt sustainable practices and to
+              integrate sustainability information into their reporting."
+            </p>
+            <p>
+              Published in: 2020 IEEE Global Humanitarian Technology Conference
+              (GHTC)
+            </p>
           </div>
         </div>
       </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="row footer-row">
+            <div class="col-xs-10 col-md-7 image-rotator">
+              <img id="rotating-image" src="image1.jpg" alt="Rotating Image" />
+              <img id="rotating-image" src="image2.jpg" alt="Rotating Image" />
+              <img id="rotating-image" src="image3.jpg" alt="Rotating Image" />
+            </div>
+            <div class="col-xs-2 col-md-5 justify-content-end pqr">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a class="link-color" href="ecolabels.html"
+                    >View All Ecolabels >></a
+                  >
+                </li>
+                <li><a class="link-color" href="#">Terms of Use</a></li>
+                <li><a class="link-color" href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-
-    <div class="container flexbox-container ml-md-2">
-      <!-- Left part with an image (30% size) -->
-      <div class="flexbox-left">
-        <img src="img/ghtc_logo.jpg" alt="Thumbnail Image" />
-      </div>
-
-      <!-- Right part with heading, description, and link (70% size) -->
-      <div class="flexbox-right">
-        <div class="link">
-          <a
-            href="https://ieeexplore.ieee.org/document/9342917"
-            target="_blank"
-            class="content-title"
-            >Goodbuys</a
-          >
-        </div>
-        <p>
-          In an economic system that prioritizes profit, humanitarian and
-          ecological ethics often get disregarded, because to many giant
-          corporations the mere consideration of them is a detriment to
-          manufacturing productivity. Thus, making conscientious consumerism the
-          norm is imperative to holding companies accountable, and making the
-          world a more equitable place. While in general, consumers are willing
-          to spend more money on ethically produced goods, they are often
-          unaware of the ethical scoring of the products they purchase. GoodBuys
-          is a social justice mobile application that allows users to scan
-          consumer goods’ barcodes using their mobile phones or tablets in order
-          to view information about how ethically the products were produced by
-          displaying which Ecolables the products or the products’ producers
-          have obtained as well as what obtaining or lacking each of those
-          labels entails. As this information can drive consumers towards or
-          away from specific products, producers, and distributors, the large
-          scale adaption of Good-Buys and similar technologies will encourage
-          the adaption of United Nations (UN) Sustainable Development Goal (SDG)
-          12: "Ensure[ing] sustainable consumption and production patterns"
-          through target 12.6: "encourage[ing] companies, especially large and
-          transnational companies, to adopt sustainable practices and to
-          integrate sustainability information into their reporting."
-        </p>
-        <p>
-          Published in: 2020 IEEE Global Humanitarian Technology Conference
-          (GHTC)
-        </p>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row footer-row">
-          <div class="col-xs-10 col-md-7 image-rotator">
-            <img id="rotating-image" src="image1.jpg" alt="Rotating Image" />
-            <img id="rotating-image" src="image2.jpg" alt="Rotating Image" />
-            <img id="rotating-image" src="image3.jpg" alt="Rotating Image" />
-          </div>
-          <div class="col-xs-2 col-md-5 justify-content-end pqr">
-            <ul class="nav navbar-nav">
-              <li>
-                <a class="link-color" href="ecolabels.html"
-                  >View All Ecolabels >></a
-                >
-              </li>
-              <li><a class="link-color" href="#">Terms of Use</a></li>
-              <li><a class="link-color" href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
