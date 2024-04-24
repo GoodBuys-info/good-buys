@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
             function rotateImages() {
                 rotatingImagesContainer.innerHTML = ''; // Clear previous images
 
-                for (let i = 0; i < 4; i++) {
+                for (let i = 0; i < 3; i++) {
                     const currentIndex = (i + Date.now()) % footerImages.length; // Use Date.now() for randomness
                     const currentImage = footerImages[currentIndex];
 
