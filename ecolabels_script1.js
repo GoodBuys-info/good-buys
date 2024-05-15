@@ -5,6 +5,8 @@ const descriptionBox = document.getElementById("description-box");
 fetch('labelsdata.json')
   .then(response => response.json())
   .then(data => {
+    // Sort the data array alphabetically by title
+    data.sort((a, b) => a.title.localeCompare(b.title));
     data.forEach((item, index) => {
       const imageDiv = document.createElement("div");
       imageDiv.classList.add("image");
