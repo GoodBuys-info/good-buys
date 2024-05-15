@@ -223,12 +223,8 @@ header {
     border-radius: 12px 12px 12px 12px;
     text-align: justify;
     
-
-
-
-
-
 }
+
 
 .flexbox-left img {
     width: 80%;
@@ -297,6 +293,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    
 }
 
 .footer-row {
