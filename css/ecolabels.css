@@ -256,7 +256,7 @@ background-color: rgba(190, 11, 11, 0.261);
 #image-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     transition: 1s ease;
 }
 
