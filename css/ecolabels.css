@@ -271,6 +271,7 @@ background-color: rgba(190, 11, 11, 0.261);
     width: 50%;
     height: auto;
     border-radius: 50%;
+    border: solid rgba(255, 255, 255, 0.756) 3px;
 }
 #image-container img:hover {
     
@@ -278,6 +279,7 @@ background-color: rgba(190, 11, 11, 0.261);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
         transition: 1s ease;
+        cursor: pointer;
 }
 
 /* Footer */
