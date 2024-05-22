@@ -271,6 +271,7 @@ background-color: rgba(190, 11, 11, 0.261);
     width: 50%;
     height: auto;
     border-radius: 50%;
+    border: rgba(255, 255, 255, 0.721) solid 3px;
 }
 #image-container img:hover {
     
