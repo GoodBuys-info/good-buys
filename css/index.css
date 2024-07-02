@@ -318,11 +318,11 @@
   .main {
     display: flex;
     flex-direction: row;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top:3rem;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 10%;
+    left: 5%;
+    /* margin-top:3rem;  */
+    
     width: 90%;
     height: 70vh; /* 70% of the viewport height */
     background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
@@ -344,6 +344,7 @@
 html,
 body {
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -352,6 +353,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    max-width: 100vw;
 }
 
 .container {
