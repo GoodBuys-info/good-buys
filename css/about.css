@@ -57,6 +57,9 @@ header {
     margin-bottom: 20px;
 }
 
+
+
+
 /* Additional styles for better alignment on mobile */
 @media (max-width: 768px) {
     .navbar-brand {

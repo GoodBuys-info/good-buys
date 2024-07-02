@@ -6,9 +6,9 @@
   }
   
   /* Header Navigation Bar */
-  header {
+  /* header {
     background-color: #8b00008c;
-  }
+  } */
   
   .navbar-default .navbar-nav > li > a {
     color: #fff;
@@ -19,8 +19,8 @@
   
   .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li.active > a {
-    background-color: #8b00008c;
-    
+    background-color: white;
+    color: #000;
   }
   
   .navbar-brand img {
@@ -234,7 +234,7 @@
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
   }
@@ -279,3 +279,22 @@
     margin-left: 20px;
   }
   
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 100vw;
+}
+
+.container {
+    flex: 1;
+}
