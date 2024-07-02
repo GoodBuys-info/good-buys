@@ -16,13 +16,6 @@ header {
 }
 
 
-
-
-
-
-
-
-
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     padding: 15px 20px;
@@ -297,15 +290,6 @@ header {
 }
 
 
-
-
-/*footer {
-    background-color: darkred;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
- */
 html,
 body {
     height: 100%;

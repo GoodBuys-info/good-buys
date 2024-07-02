@@ -6,10 +6,11 @@
   }
   
   /* Header Navigation Bar */
-  header {
-    background-color: #8b00008c;
+  /* header {
+    background-color: rgba(190, 11, 11, 0.261);
     border: none;
-  }
+    color: #ffffff;
+  } */
   
   .navbar-default .navbar-nav > li > a {
     color: #fff;
@@ -31,7 +32,7 @@
   }
   
   /* Title and Tagline */
-  .title {
+  /* .title {
     text-align: center;
     margin-top: 30px;
   }
@@ -50,7 +51,7 @@
     color: red;
     font-size: 24px;
     margin-bottom: 30px;
-  }
+  } */
   
   /* Search Bar */
   .wrap {
