@@ -3,6 +3,8 @@
 
 <head>
     <title>Contact US</title>
+    <!-- Email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/contact.css" rel="stylesheet" type="text/css" />
@@ -31,12 +33,6 @@
         .main {
             flex-grow: 1;
         }
-        .navbar-default .navbar-nav>li>a {
-            color: #fff;
-            padding: 15px 20px;
-            border: 1px solid transparent;
-            transition: 0.6s ease;
-        }
 
         .header {
             background-color: rgba(190, 11, 11, 0.422);
@@ -44,23 +40,11 @@
         }
 
         .featureposition {
-            margin-top: 8rem;
+            margin-top: 150px;
         }
 
         #logo {
-            margin-top: -7px;
-            width: 70%;
-            text-align: center;
-        }
-
-        #move-mid {
-            margin-right: 22rem;
-        }
-
-        #success-message {
-            display: none;
-            margin-top: 10px;
-            color: green;
+            margin-top: -15px;
         }
     </style>
     <script src="../jquery/jquery.js" type="text/javascript"></script>
@@ -71,8 +55,32 @@
         crossorigin="anonymous"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <!-- hCaptcha -->
-    <script src="https://www.hCaptcha.com/1/api.js" async defer></script>
+    <script src="script.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            $("#checkgoods").keyup(function () {
+                var query = $(this).val();
+                if (query != "") {
+                    $.ajax({
+                        url: "index.php",
+                        method: "POST",
+                        data: { query: query },
+                        success: function (data) {
+                            $("#goodsList").fadeIn();
+                            $("#goodsList").html(data);
+                        },
+                    });
+                } else {
+                    $("#goodsList").fadeOut();
+                    $("#goodsList").html("");
+                }
+            });
+            $(document).on("click", "li", function () {
+                $("#checkgoods").val($(this).text());
+                $("goodsList").fadeOut();
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -90,13 +98,13 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="#">
-                            <img id="logo" src="logo.png" alt="Logo" />
+                            <img id="logo" src="./img/logo1.png" alt="Logo" />
                         </a>
                     </div>
                     <div id="navbar" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="index.html">SEARCH</a></li>
-                            <li><a href="about.html">ABOUT GOODBUYS</a></li>
+                            <li><a href="./about.html">ABOUT GOODBUYS</a></li>
                             <li><a href="team.html">OUR TEAM</a></li>
                             <li class="active"><a href="contact.html">CONTACT US</a></li>
                             <li><a href="publication.html">PUBLICATIONS</a></li>
@@ -111,7 +119,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="background well well-sm">
-                        <form class="form-horizontal" id="contact-form" action="send_mail.php" method="POST">
+                        <form class="form-horizontal" id="contact-form">
                             <fieldset>
                                 <legend class="text-center">Contact us</legend>
 
@@ -142,60 +150,62 @@
                                     </div>
                                 </div>
 
-                                <!-- hCaptcha -->
-                                <div class="form-group">
-                                    <div class="col-md-9 col-md-offset-3">
-                                        <div class="h-captcha" data-sitekey="1f30fe4e-5c58-4166-8780-8cce335ecfae">
-                                        </div>
-                                    </div>
-                                </div>
-
                                 <!-- Form actions -->
                                 <div class="form-group">
                                     <div class="col-md-12 text-right">
-                                        <button type="submit" id="move-mid" class="btn btn-primary btn-lg">
+                                        <button type="submit" class="btn btn-primary btn-lg">
                                             Submit
                                         </button>
                                     </div>
                                 </div>
                             </fieldset>
                         </form>
-                        <div class="success-message" id="success-message">
-                            Email successfully sent!
-                        </div>
+
+                        <script type="text/javascript">
+                            document.addEventListener("DOMContentLoaded", function () {
+                                emailjs.init("AyRUYlqFJOFt_efzG"); // public key
+                                document
+                                    .getElementById("contact-form")
+                                    .addEventListener("submit", function (event) {
+                                        event.preventDefault();
+
+                                        let templateParams = {
+                                            from_name: document.getElementById("name").value,
+                                            from_email: document.getElementById("email").value,
+                                            message: document.getElementById("message").value,
+                                        };
+
+                                        emailjs
+                                            .send(
+                                                "service_z6p29zc",
+                                                "template_7bu8zhp",
+                                                templateParams
+                                            )
+                                            .then(
+                                                function (response) {
+                                                    console.log(
+                                                        "SUCCESS!",
+                                                        response.status,
+                                                        response.text
+                                                    );
+                                                    alert("Email successfully sent!");
+                                                },
+                                                function (error) {
+                                                    console.log("FAILED...", error);
+                                                    alert(
+                                                        "Failed to send the email, please try again."
+                                                    );
+                                                }
+                                            );
+                                    });
+                            });
+                        </script>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Footer  JASON
-        <footer>
-            <div class="container">
-                <div class="row footer-row">
-                    <div class="col-md-3">
-                        <img src="img/nordic.png" alt="Label1" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="img/rds.png" alt="Label2" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="img/zq.png" alt="Label3" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="img/blue.png" alt="Label4" />
-                    </div>
-                    <div class="col-md-12">
-                        <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href="ecolabels.html">VIEW ALL ECOLABELS ></a>
-                            </li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer> -->
+        
         <footer>
             <div class="container">
                 <div class="row footer-row">
@@ -217,42 +227,6 @@
             </div>
         </footer>
     </div>
-
-    <script>
-        document
-            .getElementById("contact-form")
-            .addEventListener("submit", function (event) {
-                event.preventDefault();
-
-                var hcaptchaResponse = document.querySelector(
-                    'textarea[name="h-captcha-response"]'
-                ).value;
-
-                if (!hcaptchaResponse) {
-                    alert("Please complete the hCaptcha.");
-                    return;
-                }
-
-                var formData = new FormData(this);
-
-                fetch("send_mail.php", {
-                    method: "POST",
-                    body: formData,
-                })
-                    .then((response) => response.text())
-                    .then((data) => {
-                        document.getElementById("success-message").style.display =
-                            "block";
-                        setTimeout(function () {
-                            document.getElementById("success-message").style.display =
-                                "none";
-                        }, 2000);
-                    })
-                    .catch((error) => {
-                        console.error("Error:", error);
-                    });
-            });
-    </script>
 </body>
 
 </html>

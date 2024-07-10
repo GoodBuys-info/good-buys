@@ -66,6 +66,7 @@
         margin: 15px 10px;
     }
     /*
+
     .footer-row {
         flex-direction: column;
         align-items: center;
@@ -94,59 +95,58 @@
     .image-rotator img:last-child {
         margin-right: 0;
     } */
-          /* Footer Responsive code here... */
-          .footer-row {
-              flex-direction: column;
-              align-items: center;
-          }
+         /* Footer Responsive code here... */
+         .footer-row {
+             flex-direction: column;
+             align-items: center;
+         }
     
-          .footer-row .image-rotator {
-              margin-bottom: 20px;
-          }
+         .footer-row .image-rotator {
+             margin-bottom: 20px;
+         }
     
-          .footer-row .pqr {
-              width: 100%;
-          }
+         .footer-row .pqr {
+             width: 100%;
+         }
+                  .pqr {
+                      width: 100% !important;
+                      margin-top: 3px !important;
+                      margin-right: 5px !important;
+                      height: 30% !important;
+                      font-size: 10px !important;
+                      display: flex !important;
+                      flex-wrap: wrap !important;
+                      justify-content: center !important;
+                      align-items: center !important;
+                      text-align: center !important;
+                      flex-direction: column !important;
+                  }
     
-          .pqr {
-              width: 100% !important;
-              margin-top: 3px !important;
-              margin-right: 5px !important;
-              height: 30% !important;
-              font-size: 10px !important;
-              display: flex !important;
-              flex-wrap: wrap !important;
-              justify-content: center !important;
-              align-items: center !important;
-              text-align: center !important;
-              flex-direction: column !important;
-          }
     
+         .image-rotator {
+             margin-bottom: 10px;
+             margin-top: 10px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
     
-          .image-rotator {
-              margin-bottom: 10px;
-              margin-top: 10px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-          }
+         .image-rotator img {
+             margin-right: 5px;
+             margin-left: 2px;
+             width: 50px;
+             height: 50px;
+             border-radius: 50%;
+         }
     
-          .image-rotator img {
-              margin-right: 5px;
-              margin-left: 2px;
-              width: 50px;
-              height: 50px;
-              border-radius: 50%;
-          }
+         .image-rotator img:last-child {
+             margin-right: 0;
+         }
     
-          .image-rotator img:last-child {
-              margin-right: 0;
-          }
-    
-          .image-rotator {
-              flex-direction: row;
-              align-items: center;
-          }
+         .image-rotator {
+             flex-direction: row;
+             align-items: center;
+         }
 }
 
 @media (min-width: 992px) {
@@ -280,59 +280,6 @@
     }
 }
 
-/* Footer */
-/* Rest of the CSS */
-/*
-footer {
-    background-color: darkred;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-row img {
-    width: 60px;
-    height: auto;
-}
-
-.footer-content ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.footer-content ul li {
-    margin-right: 10px;
-}
-
-.footer-content ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-}
-
-.footer-content ul li a:hover {
-    background-color: white;
-    color: #000;
-}
-
-.footer-image img {
-    width: 40px;
-    height: auto;
-    margin-left: 20px;
-}
-*/
 
 /* Footer */
 
