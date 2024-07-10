@@ -122,32 +122,6 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="./team.js" type="text/javascript"></script>
     <script src="script.js" type="text/javascript"></script>
-
-    <script>
-      $(document).ready(function () {
-        $("#checkgoods").keyup(function () {
-          var query = $(this).val();
-          if (query != "") {
-            $.ajax({
-              url: "index.php",
-              method: "POST",
-              data: { query: query },
-              success: function (data) {
-                $("#goodsList").fadeIn();
-                $("#goodsList").html(data);
-              },
-            });
-          } else {
-            $("#goodsList").fadeOut();
-            $("#goodsList").html("");
-          }
-        });
-        $(document).on("click", "li", function () {
-          $("#checkgoods").val($(this).text());
-          $("goodsList").fadeOut();
-        });
-      });
-    </script>
   </head>
   <body>
     <!-- Header Navigation Bar -->
@@ -197,13 +171,6 @@
           </div>
 
           <div class="name">
-            <button onclick="showInfo('Akaash')">
-              <img src="./img/Akaash.jpeg" alt="Akaash" />
-            </button>
-            <p>Akaash</p>
-          </div>
-
-          <div class="name">
             <button onclick="showInfo('Jash')">
               <img src="./img/Jash-face.jpg" alt="Jash" />
             </button>
@@ -239,32 +206,30 @@
             <p>Tony</p>
           </div>
 
-          <div class="name">
+          <!-- <div class="name">
             <button onclick="showInfo('Juilee')">
               <img src="./img/Juilee Profile Photo.jpeg" alt="Juilee" />
             </button>
             <p>Juilee</p>
-          </div>
+          </div> -->
 
+          <!-- <div class="name ">
+                <button onclick="showInfo('Payal')"><imgsrc="./img/PayalMehta_Photo.jpg" alt="Payal"></button>
+                <p>Payal</p>
+            </div> -->
+
+          <!-- Past Member ********-->
           <div class="name">
             <button id="Mohini" onclick="showInfo('Mohini')"></button>
             <p>Mohini</p>
           </div>
 
           <div class="name">
-            <button id="Payal" onclick="showInfo('Payal')"></button>
-            <p>Payal</p>
+            <button onclick="showInfo('Akaash')">
+              <img src="./img/Akaash.jpeg" alt="Akaash" />
+            </button>
+            <p>Akaash</p>
           </div>
-
-          <!-- <div class="name Mohini">
-                <button onclick="showInfo('Mohini')"><img src="./img/Mohini_Rana.jpg" alt="Mohini"></button>
-                <p>Mohini</p>
-            </div>
-
-            <div class="name ">
-                <button onclick="showInfo('Payal')"><imgsrc="./img/PayalMehta_Photo.jpg" alt="Payal"></button>
-                <p>Payal</p>
-            </div> -->
         </div>
 
         <div class="info">
