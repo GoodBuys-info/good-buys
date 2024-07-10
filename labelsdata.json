@@ -127,7 +127,7 @@
 
   },
    {
-    "image":"img/blueAngel.jpeg",
+    "image":"img/Blueangel-Square.png",
     "title":"Blue Angel",
     "description":"The Blue Angel guarantees that a product or service meets high standards when it comes to its environmental, health and performance characteristics. In the process, these products and services are always evaluated across their entire life cycle. Criteria are developed for each individual product group that must be fulfilled by those products and services awarded with the Blue Angel. And in order to reflect technological advances, the Federal Environmental Agency reviews these criteria every three to four years. This process requires companies to constantly improve the environmental friendliness of their products over time.",
     "link":"https://www.blauer-engel.de/de/system/404"
@@ -200,20 +200,20 @@
 
   },
   {
-    "image":"img/wf.png",
+    "image":"img/Certified-wildlife-friendly.png",
     "title":"Wildlife Friendly",
     "description":"They use the power of the marketplace to create on-the-ground change by providing incentives for the protection of biodiversity around the world.  They offer opportunity for people in often rural and disadvantaged communities and enable conservation of intact landscapes critical to the provision of ecosystem services.",
     "link":"https://wildlifefriendly.org/"
 
   },
   {
-    "image":"img/bird.png",
+    "image":"img/Bird-Friendly-Square.png",
     "title":"Bird Friendly",
     "description":"Using Smithsonian conservation science, the Bird Friendly gold standard does more than other eco-friendly seals to protect habitat, which is often destroyed to make way for coffee growing. Bird Friendly coffees come from farms using a combination of foliage cover, tree height and biodiversity to provide quality habitat for birds and other wildlife. The Bird FriendlyÂ® program aims to protect the most quality habitat from the threat of deforestation under the Bird Friendly seal. Look for the Bird Friendly seal â€” the gold standard in eco-friendly, organic farming â€” from certified Bird Friendly roasters.",
     "link":"https://nationalzoo.si.edu/migratory-birds/certified-coffee-importers"
   },
   {
-    "image":"img/carbonfree.jpeg",
+    "image":"img/Carbonfree-Square.png",
     "title":"Carbon Free",
     "description":"Carbon Free is leading the fight against climate change, making it easy and affordable for any individual, business or organization to reduce & offset their climate impact and hasten the transition to a clean energy future. The organization  achieves its goals through climate change education, carbon offsets and reductions and public outreach.",
     "link":"https://carbonfund.org/partner/"
@@ -227,7 +227,7 @@
 
   },
   {
-    "image":"img/leed_ap.png",
+    "image":"img/Leed-Square.png",
     "title":"Leed",
     "description": "LEED Professional Credentials distinguish building professionals with a thorough understanding of green building practices and principles and the LEED Green Building Rating System. There are now two categories of LEED Professional Credentials: LEED Green Associates; and LEED Accredited Professionals. The LEED Green Associate credential is intended for professionals who want to demonstrate green building expertise in non-technical fields of practice.LEED Accredited Professionals (LEED APs) have demonstrated the knowledge and skills to successfully steward the LEED certification process. LEED APs can specialize in several areas, corresponding to the LEED rating systems for Building Design and Construction, Interior Design and Construction, Homes, Operations and Maintenance, and Neighborhood Design.",
     "link":"https://www.usgbc.org/leed"
@@ -254,7 +254,7 @@
   },
 
   {
-    "image":"img/cradletocradle.png",
+    "image":"img/Cradletocradle-Square.png",
     "title":"Cradle to Cradle",
     "description":"The Cradle to Cradle Certified(CM) Products Program provides a company with a means to demonstrate efforts in eco-intelligent design.Cradle to Cradle Certification is a third-party sustainability label that requires achievement across multiple attributes:use materials that are safe for human health and the environment through all use phases product and system design for material reutilization, such as recycling or composting use of renewable energy efficient use of water, and maximum water quality associated with production company strategies for social responsibility.Cradle to Cradle certification is a four-tiered approach consisting of Basic, Silver, Gold, and Platinum levels.This certification program applies to materials, sub-assemblies and finished products.Cradle to Cradle CertifiedCM is a certification mark sublicensed by the Cradle to Cradle Products Innovation Institute.",
     "link": "https://c2ccertified.org/" 
