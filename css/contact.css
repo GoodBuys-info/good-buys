@@ -19,8 +19,8 @@
   
   .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li.active > a {
-    background-color: #8b00008c;
-    
+    background-color: white;
+    color: #000;
   }
   
   .navbar-brand img {
@@ -35,28 +35,197 @@
   /* Additional styles for better alignment on mobile */
   @media (max-width: 768px) {
     .navbar-brand {
-      margin-left: 15px;
+        margin-left: 15px;
     }
+
     .navbar-nav {
-      float: none;
-      margin: 0;
-      text-align: center;
+        float: none;
+        margin: 0;
+        text-align: center;
     }
+
     .navbar-nav > li {
-      display: inline-block;
+        display: inline-block;
     }
+
     .navbar-collapse {
-      text-align: center;
+        text-align: center;
     }
+
     .wrap {
-      text-align: center;
+        text-align: center;
     }
+
     .searchTerm {
-      width: 100%;
-      margin-top: 10px;
+        width: 100%;
+        margin-top: 10px;
     }
-  }
-  
+
+    .content-row {
+        padding: 10px;
+        margin: 15px 10px;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-row .image-rotator {
+        margin-bottom: 20px;
+    }
+
+    .image-rotator {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-rotator img {
+        margin-right: 5px;
+        margin-left: 2px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .image-rotator img:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .mybox1 {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-flexbox {
+        flex-direction: column;
+    }
+
+    .custom-flexbox .left {
+        flex: 100%;
+        overflow-x: auto !important;
+        white-space: wrap !important;
+        overflow-y: scroll;
+    }
+
+    .custom-flexbox .right {
+        flex: 100%;
+        max-height: 10%;
+        overflow-y: auto;
+    }
+
+    .description-box {
+        max-height: none;
+    }
+
+    .scrollable-container {
+        max-height: 100px !important;
+        overflow-y: auto;
+    }
+
+    #image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        transition: 1s ease;
+    }
+
+    .image {
+        margin: 1%;
+        position: relative;
+    }
+
+    .image img {
+        width: 50%;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .navbar-nav {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .navbar-nav > li {
+        display: inline-block;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .wrap {
+        text-align: center;
+    }
+
+    .searchTerm {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .image-rotator {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-rotator img {
+        margin-right: 5px;
+        margin-left: 2px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .image-rotator img:last-child {
+        margin-right: 0;
+    }
+
+    .container {
+        height: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .popup {
+        bottom: 200px;
+        right: 10px;
+        height: 70px;
+        width: 150px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .popup .close {
+        top: 3px;
+        right: 3px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        height: 50%;
+    }
+}
   /* Footer */
   /* Rest of the CSS */
   
@@ -65,7 +234,7 @@
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
   }
@@ -110,3 +279,22 @@
     margin-left: 20px;
   }
   
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 100vw;
+}
+
+.container {
+    flex: 1;
+}
