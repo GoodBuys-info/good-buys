@@ -1,40 +1,44 @@
 /* Reset default styles and set common font family */
 * {
-  margin: 0;
-  padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Header Navigation Bar */
-/* header {
+/*header {
   background-color: rgba(190, 11, 11, 0.261);
   border: none;
   color: #ffffff;
-} */
+}  */
+  .header {
+    background-color: rgba(190, 11, 11, 0.261);
+  }
 
-.navbar-default .navbar-nav > li > a {
-  color: #fff;
-  padding: 15px 20px;
-  border: 1px solid transparent;
-  transition: 0.6s ease;
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li.active > a {
-  background-color: white;
-  color: #000;
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li.active>a {
+    background-color: white;
+    color: #000;
 }
 
 .navbar-brand img {
-  width: 80px;
-  height: auto;
-  margin-right: 15px;
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
 }
 
- 
- 
-  /* Additional styles for better alignment on mobile */
-  @media (max-width: 768px) {
+
+
+/* Additional styles for better alignment on mobile */
+@media (max-width: 768px) {
     .navbar-brand {
         margin-left: 15px;
     }
@@ -45,7 +49,7 @@
         text-align: center;
     }
 
-    .navbar-nav > li {
+    .navbar-nav>li {
         display: inline-block;
     }
 
@@ -159,7 +163,7 @@
         text-align: center;
     }
 
-    .navbar-nav > li {
+    .navbar-nav>li {
         display: inline-block;
     }
 
@@ -227,11 +231,11 @@
         height: 50%;
     }
 }
-  
-  /* Footer */
-  /* Rest of the CSS */
-  
-  .footer-row {
+
+/* Footer */
+/* Rest of the CSS */
+
+.footer-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -336,14 +340,14 @@ footer {
     bottom: 100%; */
 }
 
-  /* Reset default styles and set common font family */
+/* Reset default styles and set common font family */
 * {
     margin: 0;
     padding: 0;
-  }
-  
-  /* Center the scrollable container */
-  .main {
+}
+
+/* Center the scrollable container */
+.main {
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -353,119 +357,121 @@ footer {
     overflow-y: auto;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px auto; /* Add margin to center the main content */
+    margin: 20px auto;
+    /* Add margin to center the main content */
 }
 
-.images{
-    flex:7;
-    height:100%;
+.images {
+    flex: 7;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 7em;
-    padding:3em;
+    padding: 3em;
 
 }
 
-.images button{
+.images button {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 50%;
     border: none;
 }
 
 
-.images img{
-    width:9em;
+.images img {
+    width: 9em;
     border-radius: 50%;
     transition: transform 0.3s;
 }
 
-.images img:hover{
+.images img:hover {
     transform: scale(1.2);
 }
 
-.name{
+.name {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.name p{
+.name p {
     font-size: 1.5em;
 }
 
-.info{
-  flex: 3;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(120, 108, 51, 0.7);
-  padding: 20px; /* Add padding for better spacing */
-  box-sizing: border-box;
+.info {
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(120, 108, 51, 0.7);
+    padding: 20px;
+    /* Add padding for better spacing */
+    box-sizing: border-box;
 }
-  
-.info h1{
-    color:#efeaea;
+
+.info h1 {
+    color: #efeaea;
     font-size: 2rem;
     text-align: center;
 }
-  
-.detail{
+
+.detail {
     display: flex;
     flex-direction: column;
-    width:90%;
+    width: 90%;
     margin-top: 20px;
 }
 
-.detail p{
+.detail p {
     font-size: 1.5em;
 }
 
 /* Responsive adjustments */
 @media (max-width: 992px) {
-  .info {
-      width: 100%;
-      padding: 10px;
-  }
+    .info {
+        width: 100%;
+        padding: 10px;
+    }
 
-  .info h1 {
-      font-size: 1.5rem;
-  }
+    .info h1 {
+        font-size: 1.5rem;
+    }
 
-  .detail p {
-      font-size: 1.2rem;
-  }
+    .detail p {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 768px) {
-  .info {
-      width: 100%;
-      padding: 5px;
-  }
+    .info {
+        width: 100%;
+        padding: 5px;
+    }
 
-  .info h1 {
-      font-size: 1.2rem;
-  }
+    .info h1 {
+        font-size: 1.2rem;
+    }
 
-  .detail p {
-      font-size: 1rem;
-  }
+    .detail p {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
-  .info {
-      width: 100%;
-      padding: 5px;
-  }
+    .info {
+        width: 100%;
+        padding: 5px;
+    }
 
-  .info h1 {
-      font-size: 1rem;
-  }
+    .info h1 {
+        font-size: 1rem;
+    }
 
-  .detail p {
-      font-size: 0.9rem;
-  }
+    .detail p {
+        font-size: 0.9rem;
+    }
 }
 
 
@@ -478,67 +484,67 @@ footer {
 
 
 
-#Mansi{
+#Mansi {
     width: 126px;
     height: 126px;
-    background-image: url('../img/Mansi.jpg'); 
+    background-image: url('../img/Mansi.jpg');
     background-size: cover;
     background-position: center top;
     transition: transform 0.3s;
 }
 
-#Mansi:hover{
+#Mansi:hover {
     transform: scale(1.2);
 }
 
-#Mohini{
-  width: 126px;
-  height: 126px;
-  background-image: url('../img/Mohini_Rana.jpg'); 
-  background-size: cover;
-  background-position: center top;
-  transition: transform 0.3s;
+#Mohini {
+    width: 126px;
+    height: 126px;
+    background-image: url('../img/Mohini_Rana.jpg');
+    background-size: cover;
+    background-position: center top;
+    transition: transform 0.3s;
 }
 
-#Mohini:hover{
-  transform: scale(1.2);
+#Mohini:hover {
+    transform: scale(1.2);
 }
 
-#Payal{
-  width: 126px;
-  height: 126px;
-  background-image: url('../img/PayalMehta_Photo.jpg'); 
-  background-size: cover;
-  background-position: center top;
-  transition: transform 0.3s;
+#Payal {
+    width: 126px;
+    height: 126px;
+    background-image: url('../img/PayalMehta_Photo.jpg');
+    background-size: cover;
+    background-position: center top;
+    transition: transform 0.3s;
 }
 
-#Payal:hover{
-  transform: scale(1.2);
+#Payal:hover {
+    transform: scale(1.2);
 }
 
-#Amelia{
-  width: 126px;
-  height: 126px;
-  background-image: url('../img/Amelia.jpg'); 
-  background-size: cover;
-  background-position: center top;
-  transition: transform 0.3s;
+#Amelia {
+    width: 126px;
+    height: 126px;
+    background-image: url('../img/Amelia.jpg');
+    background-size: cover;
+    background-position: center top;
+    transition: transform 0.3s;
 }
 
-#Amelia:hover{
-  transform: scale(1.2);
+#Amelia:hover {
+    transform: scale(1.2);
 }
 
-#Akshay{
-  width: 126px;
-  height: 126px;
-  background-image: url('../img/Akshay.jpg'); 
-  background-size: cover;
-  background-position: center top;
-  transition: transform 0.3s;
+#Akshay {
+    width: 126px;
+    height: 126px;
+    background-image: url('../img/Akshay.jpg');
+    background-size: cover;
+    background-position: center top;
+    transition: transform 0.3s;
 }
 
-#Akshay:hover{
-  transform: scale(1.2);
+#Akshay:hover {
+    transform: scale(1.2);
 }
