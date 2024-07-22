@@ -6,11 +6,15 @@
 }
 
 /* Header Navigation Bar */
-/* header {
+/*header {
   background-color: rgba(190, 11, 11, 0.261);
   border: none;
   color: #ffffff;
-} */
+}  */
+.header {
+    background-color: rgba(190, 11, 11, 0.261);
+}
+
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
@@ -220,61 +224,6 @@
         right: 3px;
         font-size: 16px;
     }
-    /* Footer Responsive code here... */
-        .footer-row {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .footer-row .image-rotator {
-            margin-bottom: 20px;
-        }
-    
-        .footer-row .pqr {
-            width: 100%;
-        }
-                 .pqr {
-                     width: 100% !important;
-                     margin-top: 3px !important;
-                     margin-right: 5px !important;
-                     height: 30% !important;
-                     font-size: 10px !important;
-                     display: flex !important;
-                     flex-wrap: wrap !important;
-                     justify-content: center !important;
-                     align-items: center !important;
-                     text-align: center !important;
-                     flex-direction: column !important;
-                 }
-    
-    
-    
-    
-    
-        .image-rotator {
-            margin-bottom: 10px;
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .image-rotator img {
-            margin-right: 5px;
-            margin-left: 2px;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-        }
-    
-        .image-rotator img:last-child {
-            margin-right: 0;
-        }
-    
-        .image-rotator {
-            flex-direction: row;
-            align-items: center;
-        }
 }
 
 @media (max-width: 992px) {
@@ -283,36 +232,19 @@
     }
 }
 
-
-
 /* Footer */
-
-
-footer {
-    background-color: darkred;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-
-}
+/* Rest of the CSS */
 
 .footer-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .footer-row img {
     width: 60px;
     height: auto;
-}
-
-.footer-content {
-    margin-left: auto;
-    /* Move to the right */
 
 }
 
@@ -320,20 +252,18 @@ footer {
     list-style: none;
     padding: 0;
     display: flex;
-
 }
 
 .footer-content ul li {
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 .footer-content ul li a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
-    padding: 2px 2px;
+    padding: 5px 10px;
     border: 1px solid transparent;
     transition: 0.6s ease;
-
 }
 
 .footer-content ul li a:hover {
@@ -346,6 +276,7 @@ footer {
     height: auto;
     margin-left: 20px;
 }
+
 
 .image-rotator {
     margin-bottom: 10px;
@@ -392,7 +323,8 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 .container {
@@ -404,7 +336,8 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    position: relative;
+    /* position: relative;
+    bottom: 100%; */
 }
 
 /* Reset default styles and set common font family */
