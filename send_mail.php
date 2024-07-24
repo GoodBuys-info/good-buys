@@ -16,4 +16,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Failed to send the email, please try again.";
     }
 }
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> new-merge
