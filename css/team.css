@@ -350,27 +350,31 @@ footer {
 .main {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%; /* 使 .main 占满视口宽度 */
     height: 70vh;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    overflow-y: auto;
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
-    /* Add margin to center the main content */
-}
+    overflow-y: auto; /* 确保 .main 有自己的滚动条 */
+    box-sizing: border-box; /* 包含内边距和边框在宽度和高度中 */
+    position: relative; /* 添加 position: relative; */
+  }
+  
 
-.images {
-    flex: 7;
+  .images {
+    flex: 1;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 7em;
+    gap: 2em; /* 调整 gap 以适应布局 */
     padding: 3em;
-
-}
+    width: 70%; /* 调整 .images 的宽度 */
+    box-sizing: border-box;
+  }
+  
 
 .images button {
     background-color: rgba(0, 0, 0, 0);
@@ -400,16 +404,19 @@ footer {
 }
 
 .info {
-    flex: 3;
-    height: 100%;
+    flex: 1; /* 调整 flex 值以使 .info 更窄 */
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(120, 108, 51, 0.7);
     padding: 20px;
-    /* Add padding for better spacing */
     box-sizing: border-box;
-}
+    position: sticky; /* 使用 position: sticky; */
+    top: 20px; /* 调整 top 值以适应布局 */
+    height: fit-content;
+    max-width: 30%; /* 限制 .info 的最大宽度 */
+  }
+  
 
 .info h1 {
     color: #efeaea;
@@ -548,3 +555,24 @@ footer {
 #Akshay:hover {
     transform: scale(1.2);
 }
+
+.current-members,
+.past-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7em;
+}
+
+.current-members .name,
+.past-members .name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
