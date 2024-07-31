@@ -549,7 +549,7 @@ footer {
     transform: scale(1.2);
 }
 
-.current-members,
+/* .current-members,
 .past-members {
     display: flex;
     flex-wrap: wrap;
@@ -567,4 +567,4 @@ footer {
     width: 100%;
     text-align: center;
     margin-bottom: 0.5em;
-}
+} */
