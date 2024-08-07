@@ -108,7 +108,7 @@ function showInfo(name) {
 
         detailElement.innerHTML = `
             <p>Role: Software Engineer</p>
-            <p>Degreed: Masters of science in computer science and engineering</p>
+            <p>Degreed: Masters of Science in Computer Science and Engineering</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/mansi-tandel/">https://www.linkedin.com/in/mansi-tandel/</a></p>
         `;
     } else if(name === 'Tony' ) {
@@ -162,7 +162,248 @@ function showInfo(name) {
             <p>Degreed: MS in Computer Science</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/mohini-rana">https://www.linkedin.com/in/mohini-rana</a></p>
         `;
-    } else if(name === 'Payal' ) {
+    } else if(name === 'Juan' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Juan Arias Martinez';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Juan Arias Martinez`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Android Developer</p>
+            <p>Degreed: Master's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href=" https://www.linkedin.com/in/juan-arias-martinez2001"> https://www.linkedin.com/in/juan-arias-martinez2001</a></p>
+        `;
+    }
+
+    else if(name === 'Dhruv' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Dhruv Nanavati';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Dhruv Nanavati`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Backend Developer</p>
+            <p>Degreed: Bachelor's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href=" https://www.linkedin.com/in/dhruv-nanavati-704aa51b1">  https://www.linkedin.com/in/dhruv-nanavati-704aa51b1</a></p>
+        `;
+    }
+
+    else if(name === 'Nikita' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Nikita kalje';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Nikita Kalje`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: iOS Developer</p>
+            <p>Degreed: Bachelor's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href=" https://www.linkedin.com/in/nikitakalje">  https://www.linkedin.com/in/nikitakalje</a></p>
+        `;
+    }
+
+    else if(name === 'Andrew' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Andrew ren';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Andrew Ren`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Web Developer</p>
+            <p>Degreed: Bachelor's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href=" https://www.linkedin.com/in/anren"> https://www.linkedin.com/in/anren</a></p>
+        `;
+    }
+
+    else if(name === 'Prerak' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Prerak Mathur';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Prerak Mathur`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Backend Engineer</p>
+            <p>Degreed: Master's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href=" https://www.linkedin.com/in/prerakmathur">  https://www.linkedin.com/in/prerakmathur</a></p>
+        `;
+    }
+
+    else if(name === 'Nivedita' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Nivedita Thapa';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Nivedita Thapa`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Androind Developer</p>
+            <p>Degreed: Master's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href="  https://www.linkedin.com/in/nivedita-thapa">   https://www.linkedin.com/in/nivedita-thapa</a></p>
+        `;
+    }
+
+    else if(name === 'Adi' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Adi Relan';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Adi Relan`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: UI & Graphic Design</p>
+            <p>Degreed: Bachelor's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href=" https://www.linkedin.com/in/aditya-relan"> https://www.linkedin.com/in/aditya-relan</a></p>
+        `;
+    }
+
+    else if(name === 'Swathi' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Swathi Hardas Vegeesh';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Swathi Hardas Vegeesh`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Backend Engineer</p>
+            <p>Degreed: Master's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href="  https://www.linkedin.com/in/swathi-prabha-hv">   https://www.linkedin.com/in/swathi-prabha-hv</a></p>
+        `;
+    }
+
+    else if(name === 'Manpreet' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Manpreet Sokhi';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Manpreet Sokhi`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: iOS Developer</p>
+            <p>Degreed: Bachelor's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href="  https://www.linkedin.com/in/msokhi"> https://www.linkedin.com/in/msokhi</a></p>
+        `;
+    }
+
+    else if(name === 'Shruti' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Shruti Bhat';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Shruti Bhat`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Backend Developer</p>
+            <p>Degreed: Master's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href="  https://www.linkedin.com/in/shrutijb">   https://www.linkedin.com/in/shrutijb</a></p>
+        `;
+    }
+
+    else if(name === 'Sanjana' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Sanjana Ramankandat';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Sanjana Ramankandat`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Data Analytics Engineer</p>
+            <p>Degreed: Master's of Science in Information Systems</p>
+            <p>LinkedIn: <a href=" https://www.linkedin.com/in/sanjana-ramankandath">   https://www.linkedin.com/in/sanjana-ramankandath</a></p>
+        `;
+    }
+
+    else if(name === 'Olivia' ) {
+        const personalInfo = document.querySelector('.info');  
+        personalInfo.innerHTML = 'Olivia Hess';
+        const nameDiv = document.createElement('div');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = `Olivia Hess`;
+        personalInfo.appendChild(nameDiv);
+        nameDiv.appendChild(h1Element);
+        const detailElement = document.createElement('div');
+        detailElement.classList.add('detail');
+        personalInfo.appendChild(detailElement);
+
+        detailElement.innerHTML = `
+    
+            <p>Role: Team Lead, iOS and backend Developer</p>
+            <p>Degreed: Bachelor's of Science in Computer Science & Engineering</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/oliviahess97/">  https://www.linkedin.com/in/oliviahess97/</a></p>
+        `;
+    }
+
+
+    else if(name === 'Payal' ) {
         const personalInfo = document.querySelector('.info');  
         personalInfo.innerHTML = 'Payal Mehta';
         const nameDiv = document.createElement('div');

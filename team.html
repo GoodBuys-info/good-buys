@@ -4,11 +4,10 @@
 <head>
     <title>Our Team | Goodbuys</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="logo.png" type="image/png">
     <link href="./css/team.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="../jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="../jquery-ui/jquery-ui.theme.css" />
-    <link rel="stylesheet" href="../jquery-ui/jquery-ui.structure.css" />
+    <link rel="stylesheet" href="./jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="./jquery-ui/jquery-ui.theme.css" />
+    <link rel="stylesheet" href="./jquery-ui/jquery-ui.structure.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
@@ -27,7 +26,7 @@
             border: none;
             color: #ffffff;
         }
-       
+
         .title {
             display: flex;
             justify-content: center;
@@ -35,18 +34,18 @@
             height: 100%;
         }
 
-         .navbar-default {
-        background-color: rgba(190, 11, 11, 0.261);
-        border: none;
-        color: #ffffff;
-      }
+        .navbar-default {
+            background-color: rgba(190, 11, 11, 0.261);
+            border: none;
+            color: #ffffff;
+        }
 
-      .navbar-default .navbar-nav > li > a {
-        color: #fff;
-        padding: 15px 20px;
-        border: 1px solid transparent;
-        transition: 0.6s ease;
-      }  
+        .navbar-default .navbar-nav>li>a {
+            color: #fff;
+            padding: 15px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        }
 
         .featureposition {
             margin-top: 150px;
@@ -99,9 +98,29 @@
         #default {
             font-family: "Courier New", Courier, monospace;
         }
+
+        .current-members,
+        .past-members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7em;
+        }
+
+        .current-members .name,
+        .past-members .name {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .images h2 {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
     </style>
-    <script src="../jquery/jquery.js" type="text/javascript"></script>
-    <script src="../jquery-ui/jquery-ui.js" type="text/javascript"></script>
+    <script src="./jquery/jquery.js" type="text/javascript"></script>
+    <script src="./jquery-ui/jquery-ui.js" type="text/javascript"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -147,47 +166,50 @@
         <!-- Features -->
         <div class="main">
             <div class="images">
-                <div class="name">
-                    <button onclick="showInfo('Navid')">
-                        <img src="./img/Navid-Shaghaghi.jpg" alt="Naivd" />
-                    </button>
-                    <p>Navid</p>
-                </div>
+                <h2>Current Members</h2>
+                <div class="current-members">
+                    <div class="name">
+                        <button onclick="showInfo('Navid')">
+                            <img src="./img/Navid-Shaghaghi.jpg" alt="Naivd" />
+                        </button>
+                        <p>Navid</p>
+                    </div>
 
-                <div class="name">
-                    <button onclick="showInfo('Jash')">
-                        <img src="./img/Jash-face.jpg" alt="Jash" />
-                    </button>
-                    <p>Jash</p>
-                </div>
+                    <div class="name">
+                        <button onclick="showInfo('Jash')">
+                            <img src="./img/Jash-face.jpg" alt="Jash" />
+                        </button>
+                        <p>Jash</p>
+                    </div>
 
-                <div class="name">
-                    <button id="Akshay" onclick="showInfo('Akshay')"></button>
-                    <p>Akshay</p>
-                </div>
+                    <div class="name">
+                        <button id="Akshay" onclick="showInfo('Akshay')"></button>
+                        <p>Akshay</p>
+                    </div>
 
-                <div class="name">
-                    <button id="Amelia" onclick="showInfo('Amelia')"></button>
-                    <p>Amelia</p>
-                </div>
+                    <!-- <div class="name">
+                        <button id="Amelia" onclick="showInfo('Amelia')"></button>
+                        <p>Amelia</p>
+                    </div> -->
 
-                <div class="name">
-                    <button onclick="showInfo('Jason')">
-                        <img src="./img/Jason3.jpg" alt="Jason" />
-                    </button>
-                    <p>Jason</p>
-                </div>
+                    <div class="name">
+                        <button onclick="showInfo('Jason')">
+                            <img src="./img/Jason3.jpg" alt="Jason" />
+                        </button>
+                        <p>Jason</p>
+                    </div>
 
-                <div class="name">
-                    <button id="Mansi" onclick="showInfo('Mansi')"></button>
-                    <p>Mansi</p>
-                </div>
+                    <div class="name">
+                        <button id="Mansi" onclick="showInfo('Mansi')"></button>
+                        <p>Mansi</p>
+                    </div>
 
-                <div class="name">
-                    <button onclick="showInfo('Tony')">
-                        <img src="./img/Tony.jpg" alt="Tony" />
-                    </button>
-                    <p>Tony</p>
+                    <!-- <div class="name">
+                        <button onclick="showInfo('Tony')">
+                            <img src="./img/Tony.jpg" alt="Tony" />
+                        </button>
+                        <p>Tony</p>
+                    </div> -->
                 </div>
 
                 <!-- <div class="name">
@@ -203,16 +225,118 @@
             </div> -->
 
                 <!-- Past Member ********-->
-                <div class="name">
-                    <button id="Mohini" onclick="showInfo('Mohini')"></button>
-                    <p>Mohini</p>
-                </div>
+                <h2>Past Members</h2>
+                <div class="past-members">
 
-                <div class="name">
-                    <button onclick="showInfo('Akaash')">
-                        <img src="./img/Akaash.jpeg" alt="Akaash" />
-                    </button>
-                    <p>Akaash</p>
+                    <div class="name">
+                        <button onclick="showInfo('Akaash')">
+                            <img src="./img/Akaash.jpeg" alt="Akaash" />
+                        </button>
+                        <p>Akaash</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Amelia" onclick="showInfo('Amelia')"></button>
+                        <p>Amelia</p>
+                    </div>
+
+                    <div class="name">
+                        <button onclick="showInfo('Tony')">
+                            <img src="./img/Tony.jpg" alt="Tony" />
+                        </button>
+                        <p>Tony</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Mohini" onclick="showInfo('Mohini')"></button>
+                        <p>Mohini</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Juan" onclick="showInfo('Juan')">
+                        <img src="./img/Juan.jpg" alt="Juan" />
+                        </button>
+                        <p>Juan</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Dhruv" onclick="showInfo('Dhruv')">
+                            <img src="./img/Dhruv.jpg" alt="Dhruv" />
+                        </button>
+                        <p>Dhruv</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Nikita" onclick="showInfo('Nikita')">
+                            <img src="./img/Nikita.jpg" alt="Nikita" />
+                        </button>
+                        <p>Nikita</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Andrew" onclick="showInfo('Andrew')">
+                            <img src="./img/Andrew.jpg" alt="Andrew" />
+                        </button>
+                        <p>Andrew</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Prerak" onclick="showInfo('Prerak')">
+                            <img src="./img/Prerak.jpg" alt="Prerak" />
+                        </button>
+                        <p>Prerak</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Nivedita" onclick="showInfo('Nivedita')">
+                            <img src="./img/Nivedita.jpg" alt="Nivedita" />
+                        </button>
+                        <p>Nivedita</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Adi" onclick="showInfo('Adi')">
+                            <img src="./img/Adi.jpg" alt="Adi" />
+                        </button>
+                        <p>Adi</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Swathi" onclick="showInfo('Swathi')">
+                            <img src="./img/Swathi.jpg" alt="Swathi" />
+                        </button>
+                        <p>Swathi</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Manpreet" onclick="showInfo('Manpreet')">
+                            <img src="./img/Manpreet.jpg" alt="Manpreet" />
+                        </button>
+                        <p>Manpreet</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Shruti" onclick="showInfo('Shruti')">
+                            <img src="./img/Shruti.jpg" alt="Shruti" />
+                        </button>
+                        <p>Shruti</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Sanjana" onclick="showInfo('Sanjana')">
+                            <img src="./img/Sanjana.jpg" alt="Sanjana" />
+                        </button>
+                        <p>Sanjana</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Olivia" onclick="showInfo('Olivia')">
+                            <img src="./img/Olivia.jpg" alt="Olivia" />
+                        </button>
+                        <p>Olivia</p>
+                    </div>
+
+                    
                 </div>
             </div>
 
@@ -239,9 +363,9 @@
             <div class="container">
                 <div class="row footer-row">
                     <div class="col-xs-10 col-md-7 image-rotator">
-                        <img id="rotating-image" src="image1.jpg" alt="Rotating Image" />
-                        <img id="rotating-image" src="image2.jpg" alt="Rotating Image" />
-                        <img id="rotating-image" src="image3.jpg" alt="Rotating Image" />
+                        <img id="rotating-image" alt="Rotating Image" />
+                        <img id="rotating-image" alt="Rotating Image" />
+                        <img id="rotating-image" alt="Rotating Image" />
                     </div>
 
                     <div class="col-md-5 col-xs-2 d-flex justify-content-end pqr">
