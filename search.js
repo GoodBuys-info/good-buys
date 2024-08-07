@@ -2,12 +2,45 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('searchInput');
     const resultsGrid = document.getElementById('resultsGrid');
   
+    fetchAllCompanies();
+
+    searchInput.addEventListener('input', function() {
+      const searchTerm = searchInput.value.toLowerCase();
+      const suggestions = allCompanies.filter(company => company.toLowerCase().startsWith(searchTerm));
+      displaySuggestions(suggestions);
+    });
+
     searchInput.addEventListener('keypress', function(event) {
       if (event.key === 'Enter') {
         const searchTerm = searchInput.value;
         searchCompanies(searchTerm);
       }
     });
+
+    function fetchAllCompanies() {
+      fetch('https://goodbuys.info/backend-services/searchCompany?searchQuery=')
+          .then(response => response.json())
+          .then(data => {
+              if (data && data.companies.length > 0) {
+                  allCompanies = data.companies.map(company => company.company_name);
+              } else {
+                  console.log('No companies found');
+              }
+          })
+          .catch(error => console.error('Error:', error));
+    }
+
+    function displaySuggestions(suggestions) {
+      const datalist = document.createElement('datalist');
+      datalist.id = 'companySuggestions';
+      suggestions.forEach(company => {
+          const option = document.createElement('option');
+          option.value = company;
+          datalist.appendChild(option);
+      });
+      document.body.appendChild(datalist);
+      searchInput.setAttribute('list', 'companySuggestions');
+    }
   
     function searchCompanies(searchTerm) {
       fetch('https://goodbuys.info/backend-services/searchCompany?searchQuery=' + encodeURIComponent(searchTerm))
@@ -70,4 +103,6 @@ document.addEventListener('DOMContentLoaded', function() {
       certificatesGrid.style.display = 'block';
     }
   });
+  
+
   
