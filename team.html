@@ -98,6 +98,7 @@
         #default {
             font-family: "Courier New", Courier, monospace;
         }
+
         .current-members,
         .past-members {
             display: flex;
@@ -105,18 +106,18 @@
             gap: 7em;
         }
 
-       .current-members .name,
-       .past-members .name {
+        .current-members .name,
+        .past-members .name {
             display: flex;
             flex-direction: column;
             align-items: center;
-       }
+        }
 
-      .images h2 {
+        .images h2 {
             width: 100%;
             text-align: center;
             margin-bottom: 0.5em;
-      }
+        }
     </style>
     <script src="./jquery/jquery.js" type="text/javascript"></script>
     <script src="./jquery-ui/jquery-ui.js" type="text/javascript"></script>
@@ -187,11 +188,6 @@
                     </div>
 
                     <div class="name">
-                        <button id="Amelia" onclick="showInfo('Amelia')"></button>
-                        <p>Amelia</p>
-                    </div>
-
-                    <div class="name">
                         <button onclick="showInfo('Jason')">
                             <img src="./img/Jason3.jpg" alt="Jason" />
                         </button>
@@ -203,12 +199,6 @@
                         <p>Mansi</p>
                     </div>
 
-                    <div class="name">
-                        <button onclick="showInfo('Tony')">
-                            <img src="./img/Tony.jpg" alt="Tony" />
-                        </button>
-                        <p>Tony</p>
-                    </div>
                 </div>
 
                 <!-- <div class="name">
@@ -226,10 +216,6 @@
                 <!-- Past Member ********-->
                 <h2>Past Members</h2>
                 <div class="past-members">
-                    <div class="name">
-                        <button id="Mohini" onclick="showInfo('Mohini')"></button>
-                        <p>Mohini</p>
-                    </div>
 
                     <div class="name">
                         <button onclick="showInfo('Akaash')">
@@ -237,6 +223,109 @@
                         </button>
                         <p>Akaash</p>
                     </div>
+
+                    <div class="name">
+                        <button id="Amelia" onclick="showInfo('Amelia')"></button>
+                        <p>Amelia</p>
+                    </div>
+
+                    <div class="name">
+                        <button onclick="showInfo('Tony')">
+                            <img src="./img/Tony.jpg" alt="Tony" />
+                        </button>
+                        <p>Tony</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Mohini" onclick="showInfo('Mohini')"></button>
+                        <p>Mohini</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Juan" onclick="showInfo('Juan')">
+                            <img src="./img/Juan.jpg" alt="Juan" />
+                        </button>
+                        <p>Juan</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Dhruv" onclick="showInfo('Dhruv')">
+                            <img src="./img/Dhruv.jpg" alt="Dhruv" />
+                        </button>
+                        <p>Dhruv</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Nikita" onclick="showInfo('Nikita')">
+                            <img src="./img/Nikita.jpg" alt="Nikita" />
+                        </button>
+                        <p>Nikita</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Andrew" onclick="showInfo('Andrew')">
+                            <img src="./img/Andrew.jpg" alt="Andrew" />
+                        </button>
+                        <p>Andrew</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Prerak" onclick="showInfo('Prerak')">
+                            <img src="./img/Prerak.jpg" alt="Prerak" />
+                        </button>
+                        <p>Prerak</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Nivedita" onclick="showInfo('Nivedita')">
+                            <img src="./img/Nivedita.jpg" alt="Nivedita" />
+                        </button>
+                        <p>Nivedita</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Adi" onclick="showInfo('Adi')">
+                            <img src="./img/Adi.jpg" alt="Adi" />
+                        </button>
+                        <p>Adi</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Swathi" onclick="showInfo('Swathi')">
+                            <img src="./img/Swathi.jpg" alt="Swathi" />
+                        </button>
+                        <p>Swathi</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Manpreet" onclick="showInfo('Manpreet')">
+                            <img src="./img/Manpreet.jpg" alt="Manpreet" />
+                        </button>
+                        <p>Manpreet</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Shruti" onclick="showInfo('Shruti')">
+                            <img src="./img/Shruti.jpg" alt="Shruti" />
+                        </button>
+                        <p>Shruti</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Sanjana" onclick="showInfo('Sanjana')">
+                            <img src="./img/Sanjana.jpg" alt="Sanjana" />
+                        </button>
+                        <p>Sanjana</p>
+                    </div>
+
+                    <div class="name">
+                        <button id="Olivia" onclick="showInfo('Olivia')">
+                            <img src="./img/Olivia.jpg" alt="Olivia" />
+                        </button>
+                        <p>Olivia</p>
+                    </div>
+
+
                 </div>
             </div>
 
@@ -263,9 +352,9 @@
             <div class="container">
                 <div class="row footer-row">
                     <div class="col-xs-10 col-md-7 image-rotator">
-                        <img id="rotating-image"  alt="Rotating Image" />
-                        <img id="rotating-image"  alt="Rotating Image" />
-                        <img id="rotating-image"  alt="Rotating Image" />
+                        <img id="rotating-image" alt="Rotating Image" />
+                        <img id="rotating-image" alt="Rotating Image" />
+                        <img id="rotating-image" alt="Rotating Image" />
                     </div>
 
                     <div class="col-md-5 col-xs-2 d-flex justify-content-end pqr">
