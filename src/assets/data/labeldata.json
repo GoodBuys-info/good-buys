@@ -1,0 +1,265 @@
+
+[
+  {
+    "image": "ecolables/ccc.png",
+    "title": "Clean Clothes Campaign",
+    "description": "Clean Clothes Campaign is a global network dedicated to improving working conditions and empowering workers in the global garment and sportswear industries. Since 1989, CCC has worked to ensure that the fundamental rights of workers are respected. We educate and mobilise consumers, lobby companies and governments, and offer direct solidarity support to workers as they fight for their rights and demand better working conditions.",
+    "link":"https://cleanclothes.org/"
+  },
+  {
+    "image": "ecolables/canopy.png",
+    "title": "Canopy Style",
+    "description": "It is estimated that more than 150 million trees are logged and turned into fabrics such as viscose globally each year, endangering the worldâ€™s forests, biodiversity and climate. Canopy Style is an initiative by Canopy, an environmental organization working to protect the worldâ€™s forest globally.",
+    "link":"https://canopyplanet.org/campaigns/canopystyle/"
+  },
+  {
+    "image": "ecolables/bci.png",
+    "title": "Better Cotton Initiative",
+    "description": "Better Cotton Initiative exists to make global cotton production better for the people who produce it, better for the environment it grows in and better for the sectorâ€™s future. BCI aims to transform cotton production worldwide by developing Better Cotton as a sustainable mainstream commodity.",
+    "link":"https://bettercotton.org/"
+  },
+  {
+    "image":"ecolables/blue.png",
+    "title":"Bluesign",
+    "description":"Bluesign is an emerging standard for environmental health and safety in the manufacturing of textiles. The Switzerland-based organization, officially known as Bluesign Technologies AG, provides independent auditing of textile mills, examining manufacturing processes from raw materials and energy inputs to water and air emissions outputs. Each component is assessed based on its ecotoxicological impact. Bluesign ranks its audit findings in order of concern, and suggests ways to reduce consumption while recommending alternatives to harmful chemicals or processes where applicable.",
+    "link":"https://www.ecolabelindex.com/ecolabel/bluesign"
+  },
+  {
+    "image":"ecolables/soa.png",
+    "title":"Soil Association",
+    "description":"The Soil Association mark stands for high standards of animal welfare, NO GM or artificial preservatives. It ensures reduced exposure to antibiotics, protection of British wildlife, and choosing organic is better for the environment.",
+    "link":"https://www.soilassociation.org/"
+
+  },
+  {
+    "image":"ecolables/ftu.png",
+    "title":"Fair Trade",
+    "description":"Founded in 1998 by the Institute for Agricultural Trade Policy (IATP), Fair Trade USA is an independent, nonprofit organization that sets standards,certifies, and labels products that promote sustainable livelihoods for farmers and workers and protect the environment. Its mission is to â€œenable sustainable development and community empowerment by cultivating a more equitable global trade model that benefits farmers, workers, consumers, industry and the earth.",
+    "link":"https://www.ecolabelindex.com/ecolabel/fairtrade"
+
+  },
+  {
+    "image":"ecolables/wrap.png",
+    "title":"wrap",
+    "description":"Worldwide Responsible Accredited Production (WRAP) formerly, Worldwide Responsible Apparel Production is a partnership whose stated aim is promoting safe, lawful, humane and ethical manufacturing around the world. It certifies factories according to the â€œWorldwide Responsible Apparel Production Principlesâ€. It was established in 2000 by the American Apparel and Footwear Association.",
+    "link":"https://wrapcompliance.org/en/"
+
+  },
+
+   {
+    "image":"ecolables/rws.png",
+    "title":"Responsible Wool Std",
+    "description":"The Responsible Wool Standard (RWS) is an industry tool designed to recognize the best practices of farmers, ensuring that wool comes from farms with a progressive approach to managing their land, and from sheep that have been treated responsibly.",
+    "link":"https://www.ecocert.com/fr-CA/certification/Sustainable-agriculture-rws"
+
+  },
+   {
+    "image":"ecolables/nordic.png",
+    "title":"Nordic Swan",
+    "description":"The Nordic Swan Ecolabel works to reduce the environmental impact from production and consumption of goods â€“ and to make it easy for consumers and professional buyers to choose the environmentally best goods and services.",
+    "link":"https://www.nordic-swan-ecolabel.org/"
+
+  },
+   {
+    "image":"ecolables/zq.png",
+    "title":"ZQ Merino",
+    "description":"ZQ Merino is the worldâ€™s leading ethical wool brand. It stands for a better quality of life. For the animals, for our planet, for our people and for you. ZQ farmers believe in farming sustainably and live for the ZQ values.",
+    "link":"https://www.discoverzq.com/"
+
+  },
+   {
+    "image":"ecolables/sa8000.png",
+    "title":"SA 8000",
+    "description":"SA8000 is an auditable certification standard that encourages organizations to develop, maintain, and apply socially acceptable practices in the workplace. It was developed in 1989 by Social Accountability International, formerly the Council on Economic Priorities, by an advisory board consisting of trade unions, NGOs, civil society organizations and companies.The SA8000â€™s criteria were developed from various industry and corporate codes to create a common standard for social welfare compliance.",
+    "link":"https://sa-intl.org/resources/sa8000-standard/"
+
+  },
+   {
+    "image":"ecolables/wca.png",
+    "title":"Workplace Condition Assessment",
+    "description":"SA8000 is an auditable certification standard that encourages organizations to develop, maintain, and apply socially acceptable practices in the workplace. It was developed in 1989 by Social Accountability International, formerly the Council on Economic Priorities, by an advisory board consisting of trade unions, NGOs, civil society organizations and companies.The SA8000â€™s criteria were developed from various industry and corporate codes to create a common standard for social welfare compliance."
+
+  },
+   {
+    "image":"ecolables/care.png",
+    "title":"Caregora",
+    "description":"Caregora, fulfils all criteria of a premium natural fibre combined with adherence to guidelines for animals' living conditions and welfare. As such, Caregora is a quality seal that respects a responsibly harvested natural resource, which is produced with consideration for international standard.",
+    "link":"https://naturaland.eu/caregora-certificate-eng"
+
+  },
+   {
+    "image":"ecolables/lwg.png",
+    "title":"Leather Working Group",
+    "description":"The Leather Working Group (LWG) is a not-for-profit membership organisation for stakeholders across the leather supply chain. Since 2005, we have developed audit protocols designed to certify leather manufacturers according to their environmental compliance and performance capabilities.",
+    "link":"https://www.leatherworkinggroup.com/"
+  },
+   {
+    "image":"ecolables/carbon.png",
+    "title":"Carbon Trust",
+    "description":"We are an expert partner for businesses, governments and organisations around the world â€“ supporting them in realising ambitious plans for a sustainable, low carbon future.  We believe that environmental sustainability and economic prosperity can go hand-in-hand as we address the climate crisis.",
+    "link":"https://www.carbontrust.com/"
+
+  },
+   {
+    "image":"ecolables/rds.png",
+    "title":"RDS",
+    "description":"The Responsible Down Standard aims to ensure that down and feathers come from animals that have not been subjected to an unnecessary harm. It is our hope that the standard can be used to reward and influence the down and feather industry to incentivize practices that respect the humane treatment of ducks and geese. We believe that education â€“ through the RDS â€“ is a meaningful way to drive demand for strong animal welfare practices. The standard also provides companies and consumers with a tool to know what is in their products, and to make accurate claims.",
+    "link":"https://textileexchange.org/responsible-down-standard/"
+  },
+   {
+    "image":"ecolables/fairwear.png",
+    "title":"Fair Wear",
+    "description":"Fair Wear Foundation is an independent multi-stakeholder organization that works with garment brands, garment workers and industry influencers to improve labour conditions in garment factories. Receiving the Fair Wear stamp of approval does not guarantee any existing quality of labour standards, instead only demonstrating a stated interest in working toward improvement.",
+    "link":"https://www.fairwear.org/brands"
+  },
+   {
+    "image":"ecolables/americanGrass.jpeg",
+    "title":"American Grass",
+    "description":"From the farm to the marketplace and in government policy, the American Grassfed organization   supports, advocates, and promotes American grassfed and pasture-based farms and ranches. They do so by maintaining a credible, transparent national standard for animals humanely raised on pasture.",
+    "link":"https://www.ecolabelindex.com/ecolabel/American-Grassfed"
+
+  },
+   {
+    "image":"ecolables/bio.jpeg",
+    "title":"Biodigradable Products",
+    "description":"The BPI is a non-profit association with the largest certification program for compostable products and packaging in North America. Our innovative compostable logo verifies that products and packaging have been independently tested and verified according to scientifically based standards. We promote best practices for the diversion and recovery of compostable materials through municipal and commercial composting.",
+    "link":"https://products.bpiworld.org/"
+
+  },
+   {
+    "image":"ecolables/Blueangel-Square.png",
+    "title":"Blue Angel",
+    "description":"The Blue Angel guarantees that a product or service meets high standards when it comes to its environmental, health and performance characteristics. In the process, these products and services are always evaluated across their entire life cycle. Criteria are developed for each individual product group that must be fulfilled by those products and services awarded with the Blue Angel. And in order to reflect technological advances, the Federal Environmental Agency reviews these criteria every three to four years. This process requires companies to constantly improve the environmental friendliness of their products over time.",
+    "link":"https://www.blauer-engel.de/de/system/404"
+
+  },
+  {
+    "image":"ecolables/carboncare.png",
+    "title":"Carbon Care Certified",
+    "description":"The Carbon Care certification offered by Enviro-access recognizes organizationsâ€™ efforts to responsibly manage and reduce greenhouse gases (GHGs). Through this certification, Enviro-access confirms that the organization is sensitive to the problem of climate change and proactive in its emissions management. All efforts that are put into quantifying, reducing and offsetting GHG emissions deserve to be recognized. The Carbon Care Certification provides a tool to proudly convey responsible management of GHG emissions and commitment to act on climate change.",
+    "link":"https://www.ecolabelindex.com/ecolabel/carbon-care-certification"
+
+  },
+  {
+    "image":"ecolables/cfree.png",
+    "title":"Cruelty Free",
+    "description":"Cruelty Free International works towards helping businesses demonstrate their commitment to ending animal testing for the products we all use on a daily basis. Internationally, over 1,000 brands are proud to be part of this family. Many display the Leaping Bunny logo on packaging to help consumers choose to shop cruelty free. The Leaping Bunny programme is regarded as the global gold standard for cruelty free cosmetics, personal care and household products.",
+    "link":"https://www.ecolabelindex.com/ecolabel/leaping-bunny"
+  },
+  {
+    "image":"ecolables/cng.jpeg",
+    "title":"Certified Naturally Grown",
+    "description":"Certified Naturally Grown  offers peer-review certification to farmers and beekeepers producing food, flowers, and fiber for their local communities by working in harmony with nature, without relying on synthetic chemicals or GMOs. Their standards are based on the highest ideals of the organic movement. Their  mission is to support our members by promoting sustainable agriculture through peer-review certification, grassroots networking, and advocacy.",
+    "link":"https://certified.naturallygrown.org/producers"
+  },
+  {
+    "image":"ecolables/organic.gif",
+    "title":"Organic",
+    "description":"The U.S. Department of Agriculture has put in place a set of national standards that food labeled must meet, whether it is grown in the United States or imported from other countries. Organic meat, poultry, eggs, and dairy products come from animals that are given no antibiotics or growth hormones. Organic food is produced without using most conventional pesticides; fertilizers made with synthetic ingredients or sewage sludge; bioengineering; or ionizing radiation.",
+    "link":"https://www.ecolabelindex.com/ecolabel/usda-organic"
+  },
+  {
+    "image":"ecolables/aud.jpeg",
+    "title":"Audubon International",
+    "description":"Audubon International is a not-for-profit environmental organization providing people with the education and assistance they need to practice responsible management of land, water, wildlife, and other natural resources. To meet this mission, the organization provides training, services, and a set of award-winning environmental education and certification programs for individuals, organizations, properties, new developments, and entire communities.",
+    "link":"https://directory.auduboninternational.org/directory"
+  },
+  {
+    "image":"ecolables/aquaculture.png",
+    "title":"Best Aquaculture Practices",
+    "description":"Best Aquaculture Practices (BAP) is a seafood specific certification program that addresses the four key areas of sustainabilityâ€”environmental, social, food safety, and animal health & welfareâ€”at each step of the aquaculture production chain.",
+    "link":"https://www.bapcertification.org/"
+
+  },
+  {
+    "image":"ecolables/vegan.jpeg",
+    "title":"Certified Vegan",
+    "description":"Vegan Action is a  nonprofit organization that works to eliminate animal suffering, reduce environmental impacts, and improve human health through a vegan diet. Created in 1995, Vegan.org is one of the oldest and most visited vegan websites in the world. Their efforts  include certifying thousands of vegan products with our logo through our Vegan Certification Campaigns.",
+    "link":"https://vegan.org/companies-using-our-logo/"
+
+  },
+  {
+    "image":"ecolables/aw.png",
+    "title":"Animal Welfare",
+    "description":"Through engagement with policymakers, scientists, industry, and the public, AWI seeks to abolish factory farms, support high-welfare family farms, and achieve humane slaughter for animals raised for food. It also works towards improving the housing and handling of animals in research, and encourage the development and implementation of alternatives to experimentation on live animals.",
+    "link":"https://agreenerworld.org/certifications/animal-welfare-approved/"
+
+  },
+  {
+    "image":"ecolables/ccba.jpeg",
+    "title":"CCBA",
+    "description":"The Certification of Capability in Business Analysis (CCBA) designation is a professional certification from International Institute of Business Analysis (IIBA) for business analysis practitioners who want to be recognized for their expertise and skills by earning formal recognition.CCBA recipients are recognized for the investment they have already made in their business analysis careers and allows business analysts to demonstrate their ability to take on greater responsibility.",
+    "link":"https://www.iiba.org/business-analysis-certifications/ccba/"
+
+  },
+  {
+    "image":"ecolables/bcorp.jpeg",
+    "title":"B Corp",
+    "description":"Certified B Corporations are businesses that meet the highest standards of verified social and environmental performance, public transparency, and legal accountability to balance profit and purpose. B Corps are accelerating a global culture shift to redefine success in business and build a more inclusive and sustainable economy.Society's most challenging problems cannot be solved by government and nonprofits alone. The B Corp community works toward reduced inequality, lower levels of poverty, a healthier environment, stronger communities, and the creation of more high quality jobs with dignity and purpose. By harnessing the power of business, B Corps use profits and growth as a means to a greater end: positive impact for their employees, communities, and the environment.",
+    "link":"https://www.bcorporation.net/en-us/find-a-b-corp/"
+
+  },
+  {
+    "image":"ecolables/Certified-wildlife-friendly.png",
+    "title":"Wildlife Friendly",
+    "description":"They use the power of the marketplace to create on-the-ground change by providing incentives for the protection of biodiversity around the world.  They offer opportunity for people in often rural and disadvantaged communities and enable conservation of intact landscapes critical to the provision of ecosystem services.",
+    "link":"https://wildlifefriendly.org/"
+
+  },
+  {
+    "image":"ecolables/Bird-Friendly-Square.png",
+    "title":"Bird Friendly",
+    "description":"Using Smithsonian conservation science, the Bird Friendly gold standard does more than other eco-friendly seals to protect habitat, which is often destroyed to make way for coffee growing. Bird Friendly coffees come from farms using a combination of foliage cover, tree height and biodiversity to provide quality habitat for birds and other wildlife. The Bird FriendlyÂ® program aims to protect the most quality habitat from the threat of deforestation under the Bird Friendly seal. Look for the Bird Friendly seal â€” the gold standard in eco-friendly, organic farming â€” from certified Bird Friendly roasters.",
+    "link":"https://nationalzoo.si.edu/migratory-birds/certified-coffee-importers"
+  },
+  {
+    "image":"ecolables/Carbonfree-Square.png",
+    "title":"Carbon Free",
+    "description":"Carbon Free is leading the fight against climate change, making it easy and affordable for any individual, business or organization to reduce & offset their climate impact and hasten the transition to a clean energy future. The organization  achieves its goals through climate change education, carbon offsets and reductions and public outreach.",
+    "link":"https://carbonfund.org/partner/"
+
+  },
+  {
+    "image":"ecolables/cr.png",
+    "title":"Climate Registered",
+    "description":"The Climate Registry (TCR) is a non-profit organization that empowers North American organizations to do more in the fight against climate change by providing services and tools that help them reduce their emissions. TCR also drives climate action and ambition on the road to net zero by recognizing and showcasing sub-national leadership, and by building strategic partnerships with and between national and international entities. TCR is advised by a Council of Jurisdictions that includes representatives from diverse U.S. states and Canadian provinces and territories.",
+    "link":"https://theclimateregistry.org/" 
+
+  },
+  {
+    "image":"ecolables/Leed-Square.png",
+    "title":"Leed",
+    "description": "LEED Professional Credentials distinguish building professionals with a thorough understanding of green building practices and principles and the LEED Green Building Rating System. There are now two categories of LEED Professional Credentials: LEED Green Associates; and LEED Accredited Professionals. The LEED Green Associate credential is intended for professionals who want to demonstrate green building expertise in non-technical fields of practice.LEED Accredited Professionals (LEED APs) have demonstrated the knowledge and skills to successfully steward the LEED certification process. LEED APs can specialize in several areas, corresponding to the LEED rating systems for Building Design and Construction, Interior Design and Construction, Homes, Operations and Maintenance, and Neighborhood Design.",
+    "link":"https://www.usgbc.org/leed"
+
+  },{
+    "image":"ecolables/Energy_star_logo.png",
+    "title":"Energy star",
+    "description":"ENERGY STAR is a voluntary government-backed program dedicated to helping individuals protect the environment through energy efficiency. The ENERGY STAR mark is the national symbol for energy efficiency, making it easy for consumers and businesses to identify high-quality, energy-efficient products, homes, and commercial and industrial buildings. ENERGY STAR distinguishes what is efficient/better for the environment without sacrificing features or performance. Products that earn the ENERGY STAR mark prevent greenhouse gas emissions by meeting strict energy-efficiency guidelines set by the U.S. Environmental Protection Agency. For purposes of this survey, the questions answered will be limited to ENERGY STAR products.",
+    "link": "https://www.energystar.gov/" 
+  },
+  {
+    "image":"ecolables/fsc.jpg",
+    "title":"Forest Stewardship Council",
+    "description":"Forest Stewardship Council (FSC) is governed by a global network of over 1,000 individuals and member organizations representing environmental, social, and economic perspectives.Our democratic and participative system brings these diverse perspectives together to find solutions that safeguard healthy, resilient forests worldwide.Our purpose: nurturing responsible forestry so forests and people can thrive. Our “check tree” label is found on millions of products worldwide, verifying sustainable sourcing from the forest to store shelves. Forty-six per cent of consumers around the globe recognize our label*.",
+    "link": "https://fsc.org/en" 
+
+  },
+  {
+    "image":"ecolables/green_seal.png",
+    "title":"Green seal",
+    "description":"Green Seal® is a global nonprofit organization that pioneered the ecolabeling movement with a mission to protect human health and the environment by accelerating the adoption of products that are safer and more sustainable. For decades, Green Seal’s rigorous standards for health, sustainability, and product performance have driven permanent shifts in the marketplace, empowering better purchasing decisions and rewarding industry innovators. With thousands of certified products, services, and spaces from the world’s leading companies, the Green Seal certification mark is a universal symbol that a product or service meets the highest benchmark of health and environmental leadership.",
+    "link": "https://www.greenseal.org/" 
+
+  },
+
+  {
+    "image":"ecolables/Cradletocradle-Square.png",
+    "title":"Cradle to Cradle",
+    "description":"The Cradle to Cradle Certified(CM) Products Program provides a company with a means to demonstrate efforts in eco-intelligent design.Cradle to Cradle Certification is a third-party sustainability label that requires achievement across multiple attributes:use materials that are safe for human health and the environment through all use phases product and system design for material reutilization, such as recycling or composting use of renewable energy efficient use of water, and maximum water quality associated with production company strategies for social responsibility.Cradle to Cradle certification is a four-tiered approach consisting of Basic, Silver, Gold, and Platinum levels.This certification program applies to materials, sub-assemblies and finished products.Cradle to Cradle CertifiedCM is a certification mark sublicensed by the Cradle to Cradle Products Innovation Institute.",
+    "link": "https://c2ccertified.org/" 
+
+  }
+
+]
+

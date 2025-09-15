@@ -1,0 +1,102 @@
+/* src/styles/global.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  background-image: url('images//background.jpeg');
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; */
+}
+
+.app-overlay {
+  min-height: 100vh;
+  backdrop-filter: blur(4px);
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  /* padding: 20px; */
+}
+
+/* Custom styles for your app */
+
+.glass-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.team-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #ffffff33;
+}
+
+.team-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+h1, h3, .team-name {
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.85);
+}
+
+/* Footer animation styles */
+.footer-ecolabel {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-ecolabel:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.footer-nav-link {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-nav-link:hover {
+  color: #ffd700 !important;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.footer-nav-link.active {
+  color: #ffd700 !important;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+  font-weight: bold;
+}
+
+/* Footer ecolabel rotation animation */
+@keyframes fadeInRotate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1);
+  }
+}
+
+.footer-ecolabel-rotate {
+  animation: fadeInRotate 0.8s ease-in-out forwards;
+}
+
+/* Navbar link hover and active states */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+  font-weight: bold;
+}

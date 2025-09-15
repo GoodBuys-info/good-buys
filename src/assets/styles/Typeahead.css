@@ -1,0 +1,246 @@
+/* Modern Typeahead Component Styles */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hover-bg-light:hover {
+  background-color: rgba(34, 197, 94, 0.1) !important;
+  color: #22c55e !important;
+}
+
+.max-height-300 {
+  max-height: 300px;
+}
+
+.z-3 {
+  z-index: 1030;
+}
+
+/* Dropdown slide down animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Modern Suggestions Dropdown */
+.suggestions-dropdown {
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  margin-top: 8px;
+  animation: slideDown 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1050;
+}
+
+/* Modern Suggestion Items */
+.suggestion-item {
+  padding: 12px 16px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, #22c55e, #16a34a);
+  transform: scaleY(0);
+  transition: transform 0.2s ease;
+}
+
+.suggestion-item:hover {
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+  transform: translateX(4px);
+}
+
+.suggestion-item:hover::before {
+  transform: scaleY(1);
+}
+
+.suggestion-item.selected {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.suggestion-item.selected::before {
+  transform: scaleY(1);
+}
+
+/* Custom scrollbar for suggestions dropdown */
+.overflow-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+  background: rgba(34, 197, 94, 0.3);
+  border-radius: 3px;
+  transition: background 0.2s ease;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+  background: rgba(34, 197, 94, 0.5);
+}
+
+/* Highlight animation for selected suggestions */
+.bg-primary {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(34, 197, 94, 0.15) !important;
+  color: #22c55e !important;
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner-border {
+  animation: spin 1s linear infinite;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-top: 2px solid #22c55e;
+  border-radius: 50%;
+}
+
+/* Completion text styling */
+.completion-overlay {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+}
+
+/* Modern Input Container */
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.input-container:focus-within {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(34, 197, 94, 0.5);
+  box-shadow: 
+    0 0 0 4px rgba(34, 197, 94, 0.1),
+    0 8px 32px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+/* Search Icon */
+.search-icon {
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 16px;
+  transition: color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.input-container:focus-within .search-icon {
+  color: #22c55e;
+}
+
+/* Modern Input Field */
+.modern-input {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 16px 20px;
+  width: 100%;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.modern-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+}
+
+.modern-input:focus::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Ensure dropdown positioning */
+.position-relative {
+  position: relative !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.top-100 {
+  top: 100% !important;
+}
+
+.start-0 {
+  left: 0 !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .suggestions-dropdown {
+    border-radius: 12px;
+    margin-top: 6px;
+  }
+  
+  .suggestion-item {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+  }
+  
+  .modern-input {
+    font-size: 1rem;
+    padding: 14px 16px;
+  }
+  
+  .input-container {
+    border-radius: 12px;
+  }
+} 
