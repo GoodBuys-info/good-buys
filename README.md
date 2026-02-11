@@ -46,6 +46,8 @@ Our goal is to make conscientious consumerism the norm by making it easy for use
    npm install
    ```
 
+   If you previously cloned an older version of this repo and see an `npm ERR! ERESOLVE` mentioning `react-hcaptcha@0.1.1`, make sure your local `package.json` does **not** list `react-hcaptcha` (only `@hcaptcha/react-hcaptcha`) and then re-run `npm install`.
+
 3. **Start the development server**
    ```bash
    npm run dev
